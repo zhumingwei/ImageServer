@@ -97,7 +97,7 @@ class SimpleHttpServer {
             } else {
                 imageList!!.forEach {
                     msg += "<a href='${it}'><h3>${it}  " +
-                            "<img src='${it}?thumb'  alt=\"上海鲜花港 - 郁金香\" />" +
+                            "<img src='${it}?thumb' />" +
                             "</h3></a>\n";
                 }
             }
